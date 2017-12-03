@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "dependencies": {
     "body-parser": "*",
-    "bootstrap": "^3.3.7",
     "compression": "^1.7.1",
     "cookie-parser": "*",
     "debug": "*",
@@ -11,7 +10,6 @@
     "gem": "^2.4.3",
     "gulp": "^3.9.1",
     "gulp-clean-css": "*",
-    "gulp-less": "*",
     "sass": "^1.0.0-beta.3",
     "serve-favicon": "*"
   }

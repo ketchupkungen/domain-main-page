@@ -12,7 +12,6 @@ g = {}; // all global variables (ex. settings)
   "cookie-parser",
   "body-parser",
   "gulp",
-  "gulp-less",
   "gulp-clean-css",
   "./settingsConstr",
   "./classLoader"
