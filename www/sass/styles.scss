@@ -1,0 +1,158 @@
+.jumbo-image {
+  background: url("/images/jumbotron2.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: black;
+  box-shadow: 4px 4px 4px gray;
+  top: 0;
+  left: 0;
+  right: 0;
+  color: Dimgray;
+  height: 150px;
+  display: block;
+  margin-bottom: 50px;
+  border: none;
+  border-radius: none;
+}
+
+.card {
+	width: 280px;
+
+	position: relative;
+
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+  float: none;
+  margin-bottom: 10px;
+}
+
+.card-desc {
+	font-family: 'Biryani', sans-serif;
+}
+
+.card-block {
+  padding: 20px;
+}
+
+// Read more toggle for projects
+.box .bottom {
+  display: none;
+}
+
+
+
+.greet {
+	text-align: center;
+  margin: 20px;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+
+
+}
+
+button {
+	cursor: pointer;
+}
+
+footer {
+  clear: both;
+  position: relative;
+  z-index: 10;
+  height: 3em;
+  margin-top: 3em;
+  right: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+  p{
+  	margin: 0;
+  }
+}
+
+// Return to top button
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    z-index: 11;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
+
+
+// Responsivness
+
+@media screen and (max-width:465px){
+	.greet h1 {
+		font-size: 25px;
+	}
+
+	.greet p {
+		font-size: 14px;
+	}
+}
+
+
+// bootstrap lg
+@media screen and (min-width:1200px){
+	.project-col:nth-child(3n+1){
+		clear:left !important;
+	};
+}
+
+// bootstrap md
+@media screen and (min-width:992px) and (max-width:1199px){
+	.project-col:nth-child(3n+1){
+		clear:left !important;
+	};
+}
+
+
+// boostrap sm
+@media screen and (min-width:768px) and (max-width:991px){
+	.project-col:nth-child(2n+1){
+		clear:left !important;
+	};
+}
+
+// bootstrap xs
+@media screen and (max-width:767px){
+
+}
