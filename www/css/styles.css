@@ -23,7 +23,8 @@
   margin-top: 20px;
   margin-bottom: 20px;
   float: none;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  box-shadow: 4px 4px 4px #E0E0E0; }
 
 .card-desc {
   font-family: 'Biryani', sans-serif; }
