@@ -4,9 +4,9 @@
   "dependencies": {
     "body-parser": "*",
     "compression": "^1.7.1",
-    "cookie-parser": "*",
+    "cookie-parser": "1.4.7",
     "debug": "*",
-    "express": "*",
+    "express": "4.21.1",
     "gem": "^2.4.3",
     "gulp": "^3.9.1",
     "gulp-clean-css": "*",
