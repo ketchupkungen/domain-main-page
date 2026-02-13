@@ -2,11 +2,11 @@
   "name": "suw16",
   "version": "0.0.1",
   "dependencies": {
-    "body-parser": "*",
+    "body-parser": "1.20.4",
     "compression": "^1.7.1",
     "cookie-parser": "*",
     "debug": "*",
-    "express": "*",
+    "express": "4.22.0",
     "gem": "^2.4.3",
     "gulp": "^3.9.1",
     "gulp-clean-css": "*",
